@@ -14,11 +14,14 @@ for (let x = 0; x < 9; x++){
     square[x].addEventListener("click", function(){
 
         if (player1turn === true){
-            
-            
 
             if (cross[x].style.visibility === "visible"){
                 return;
+
+            }
+
+            else if (circle[x].style.visibility === "visible"){
+                    return;
                 
             }else{
 
@@ -39,6 +42,9 @@ for (let x = 0; x < 9; x++){
 
             if (circle[x].style.visibility === "visible"){
                 return;
+
+            }else if (circle[x].style.visibility === "visible"){
+                    return;
 
             }else{
 
